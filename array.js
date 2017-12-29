@@ -9,4 +9,10 @@ array.push(1);
 # 获得数组一个元素
 var popItem = array.pop();
 # for in遍历数组
-for(index in array){console.log(array[index]);};
+for(index in array){
+  console.log(array[index]);
+};
+# 通过index获得数组元素
+var varIndex = array[0];
+# 通过数组key获得数组元素
+var varKey = array['key'];
